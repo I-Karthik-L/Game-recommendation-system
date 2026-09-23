@@ -1,0 +1,15 @@
+# Datasets (hosted on Hugging Face, downloaded at runtime — see README)
+merged_data.csv
+BGG_Data_Set.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
