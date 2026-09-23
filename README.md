@@ -16,8 +16,6 @@ The datasets are too large to commit to this repo, so they're hosted on Hugging 
 
 You don't need to manually download anything — `app.py` pulls both CSVs via `huggingface_hub.hf_hub_download()` the first time the app runs.
 
-> If the dataset repo is private, set an `HF_TOKEN` environment variable (or Streamlit secret) with a Hugging Face access token before running.
-
 ## Running locally
 
 ```bash
